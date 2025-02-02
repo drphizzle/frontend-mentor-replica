@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(33, 33, 33);
+    display: flex;
+    justify-content: center;
+    
+}
+.card-container {
+    padding: 40px;
+    width: fit-content;
+    
+}
+
+.card {
+    padding: 40px;
+    background: rgb(42, 40, 40);
+    border-radius: 12px;
+    width: fit-content;
+    
+
+}
+.inside-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+    
+    
+    
+}
+
+    
+
+.name {
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    margin: 5px;
+    
+
+    
+}
+.location {
+    color: yellow;
+    font-size: 17px;
+    text-align: center;
+    margin: 3px;
+    
+}
+.more-desc {
+    color: #fff;
+    font-size: 19px;
+    font-style: italic;
+    text-align: center;
+    
+}
+.site {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    padding: 0.8rem;
+    border-radius: 8px;
+    background: rgb(63, 57, 57);
+    
+    
+}
+
+/* First, we target small screens */
+
+@media only screen and (max-width: 640px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: rgb(33, 33, 33);
+    }
+    .card-container {
+        padding: 40px;
+        
+    }
+    
+    .card {
+        padding: 40px;
+        background: rgb(42, 40, 40);
+        border-radius: 12px;
+        
+
+    }
+    .inside-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    img {
+        width: 100px;
+        border-radius: 50%;
+        
+        
+        
+    }
+    
+        
+    
+    .name {
+        color: white;
+        font-size: xx-large;
+        text-align: center;
+        margin: 5px;
+        
+
+        
+    }
+    .location {
+        color: yellow;
+        font-size: 17px;
+        text-align: center;
+        margin: 3px;
+        
+    }
+    .more-desc {
+        color: #fff;
+        font-size: 19px;
+        font-style: italic;
+        text-align: center;
+        
+    }
+    .site {
+        text-align: center;
+        color: #fff;
+        font-size: 30px;
+        padding: 0.8rem;
+        border-radius: 8px;
+        background: rgb(63, 57, 57);
+        
+        
+    }
+    
+}
