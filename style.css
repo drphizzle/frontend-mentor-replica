@@ -67,8 +67,12 @@ img {
     padding: 0.8rem;
     border-radius: 8px;
     background: rgb(63, 57, 57);
+    cursor: pointer;
     
     
+}
+.site:hover {
+    background: rgb(132, 132, 73);
 }
 
 /* First, we target small screens */
