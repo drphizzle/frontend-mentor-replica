@@ -1,10 +1,12 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 25px;
     box-sizing: border-box;
-    background: rgb(33, 33, 33);
+    background: rgb(13, 13, 13);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
     
 }
 .card-container {
@@ -14,8 +16,8 @@ body {
 }
 
 .card {
-    padding: 40px;
-    background: rgb(42, 40, 40);
+    padding: 18px;
+    background: rgb(30, 29, 29);
     border-radius: 12px;
     width: fit-content;
     
@@ -31,15 +33,13 @@ img {
     width: 100px;
     border-radius: 50%;
     
-    
-    
 }
 
     
 
 .name {
     color: white;
-    font-size: xx-large;
+    font-size: large;
     text-align: center;
     margin: 5px;
     
@@ -48,31 +48,41 @@ img {
 }
 .location {
     color: yellow;
-    font-size: 17px;
+    font-size: 13px;
     text-align: center;
     margin: 3px;
     
 }
 .more-desc {
     color: #fff;
-    font-size: 19px;
+    font-size: 15px;
     font-style: italic;
     text-align: center;
     
 }
+
 .site {
     text-align: center;
     color: #fff;
-    font-size: 30px;
-    padding: 0.8rem;
+    font-size: 16px;
+    padding: 0.5rem;
     border-radius: 8px;
-    background: rgb(63, 57, 57);
+    background: rgb(43, 39, 39);
     cursor: pointer;
+    margin: 10px;
     
     
 }
 .site:hover {
     background: rgb(132, 132, 73);
+}
+footer {
+    color: #fff;
+    /* text-align: center; */
+    padding: 15px;
+    background: rgb(43, 39, 39); 
+    width: fit-content;
+    border-radius: 20px;
 }
 
 /* First, we target small screens */
@@ -83,7 +93,7 @@ img {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        background: rgb(33, 33, 33);
+        background: rgb(13, 13, 13);
     }
     .card-container {
         padding: 40px;
@@ -92,7 +102,7 @@ img {
     
     .card {
         padding: 40px;
-        background: rgb(42, 40, 40);
+        background: rgb(30, 29, 29);
         border-radius: 12px;
         
 
@@ -106,28 +116,18 @@ img {
     img {
         width: 100px;
         border-radius: 50%;
-        
-        
-        
     }
-    
-        
-    
     .name {
         color: white;
         font-size: xx-large;
         text-align: center;
         margin: 5px;
-        
-
-        
     }
     .location {
         color: yellow;
         font-size: 17px;
         text-align: center;
         margin: 3px;
-        
     }
     .more-desc {
         color: #fff;
@@ -139,12 +139,19 @@ img {
     .site {
         text-align: center;
         color: #fff;
-        font-size: 30px;
+        font-size: 20px;
         padding: 0.8rem;
         border-radius: 8px;
-        background: rgb(63, 57, 57);
-        
-        
+        background: rgb(43, 39, 39);
+    }
+    footer {
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        background: rgb(43, 39, 39); 
+        width: fit-content;
+        border-radius: 20px;
+        margin: 15px;
     }
     
 }
